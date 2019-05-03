@@ -14,7 +14,7 @@ def read_img(filename):
     # filename = easygui.fileopenbox()
     # print(filename)
     # cmd = r"C:\Users\James\PycharmProjects\test_alpr\openalpr\alpr.exe -n 1 -j C:\Users\James\PycharmProjects\test_alpr\LicPlateImages\2.png"
-
+      # asign file to cmd
     cmd = r"C:\Users\James\PycharmProjects\test_alpr\openalpr\alpr.exe -n 1 -j " + filename
     output = qx(cmd)
     #output level
