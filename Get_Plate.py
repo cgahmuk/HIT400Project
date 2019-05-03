@@ -7,6 +7,7 @@ import tkinter as tk
 import easygui
 import os
 import sklearn
+import scipy as sc
 
 
 def read_img(filename):
