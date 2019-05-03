@@ -17,6 +17,8 @@ def read_img(filename):
 
     cmd = r"C:\Users\James\PycharmProjects\test_alpr\openalpr\alpr.exe -n 1 -j " + filename
     output = qx(cmd)
+    #output level
+    print('Producing output now')
 
     out_str = output.decode("utf-8")
     plate_txt = out_str.find("plate")
