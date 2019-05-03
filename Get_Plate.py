@@ -36,6 +36,7 @@ def read_img(filename):
             x = x + 1
 
         print(plate_num)
+        print('Plate Number Identified',plate_num)
         return plate_num
 
 
